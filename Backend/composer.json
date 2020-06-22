@@ -1,0 +1,15 @@
+{
+    "name": "FormBuilder",
+    "description": "Form",
+    "require": {
+        "catfan/medoo": "^1.7",
+        "respect/validation": "^2.0",
+        "klein/klein": "^2.1"
+    },
+    "authors": [
+        {
+            "name": "pereira299",
+            "email": "lucasper057@gmail.com"
+        }
+    ]
+}

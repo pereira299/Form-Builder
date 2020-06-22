@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo Formulario</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="new/assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <script src="new/assets/js/main.js"></script>
+    <script src="new/assets/js/questions.js"></script>
+    <script src="new/assets/js/save.js"></script>
+</head>
+
+<body>
+    <a class="row col-lg-4" href="http://localhost:8080/">
+        <i class="fas black fa-arrow-left fa-2x m-2"></i>
+        <p class="voltar black p-0">Voltar</p>
+    </a>
+    <div class="container mb-5">
+        <div id="header" class="col-lg-12 card card-body shadow mb-2">
+            <input type="text" id="title" class="form-control form-control-lg col-lg-6 mb-2" placeholder="Titulo">
+            <input type="text" id="desc" class="form-control col-lg-12" placeholder="Descrição">
+        </div>
+        <div id="questions"></div>
+        <div class="btn-group mt-2 col-lg-12 px-0" role="group">
+        <a class="btn btn-secondary" href="http://localhost:8080/">Cancelar</a>
+        <button class="btn btn-info" onclick="addQuestion()">Adicionar nova pergunta</button>
+        <button class="btn btn-success" onclick="save()">Salvar</button>
+        </div>
+    </div>
+</body>
+
+</html>

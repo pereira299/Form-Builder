@@ -1,0 +1,38 @@
+.voltar{
+    font-size: 30px;
+    font-weight: 700;
+}
+.black{
+    color: black;
+}
+body{
+    background-color: #e2e2e2;
+}
+
+.trash-icon{
+    font-size: 1.5em;
+}
+
+.toggle{
+    border: 1px solid #2c2c2c;
+}
+.toggle.btn{
+    min-height: 41px !important;
+}
+.toggle-off {
+    color: #2c2c2c;
+}
+
+.ui-state-default{
+    background: #17a2b8 !important;
+    border-radius: 20px;
+    border: none !important;
+}
+
+.ui-slider-range{
+    background: #17a2b8 !important;
+}
+
+.form-control-sm{
+    width: 4%;
+}
